@@ -14,7 +14,7 @@ def preprocess_image(img):
     return img_array
 
 # Streamlit UI
-st.title("🍌 Banana Ripeness Prediction App")
+st.title("Banana Ripeness Prediction App")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
 
