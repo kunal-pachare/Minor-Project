@@ -31,5 +31,5 @@ if uploaded_file is not None:
         if predicted_class == 1:
             st.success("✅ The banana is **Naturally Ripened**! i.e Without carbide")
         else:
-            st.warning("⚠️ The banana is **Chemically Ripened**! i.e With carbide")
+            st.warning("⚠️ The banana is **Chemically Ripened**! i.e With")
 
