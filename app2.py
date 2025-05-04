@@ -32,9 +32,10 @@ def get_chemical_nutrient_values():
     }
 
 # Streamlit UI
-st.title("🍌 Banana Ripeness Prediction App")
+st.title("Banana Ripeness Prediction App")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
+st.caption("📌 *Please upload only a banana image for accurate results.*")
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
